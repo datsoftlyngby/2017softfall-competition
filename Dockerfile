@@ -2,4 +2,4 @@
 FROM debian
 
 COPY housenka.sh /
-ENTRIPOINT ["bash", "/housenka.sh"]
+ENTRYPOINT ["bash", "/housenka.sh"]
