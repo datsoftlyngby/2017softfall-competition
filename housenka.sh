@@ -39,7 +39,7 @@ GAME_OVER[5]="\e[1;36m╨──────────────────�
 # FUNCTIONS #
 #############
 
-functionæ at_exit() {
+function at_exit() {
 	printf "\e[?9l"          # Turn off mouse reading
 	printf "\e[?12l\e[?25h"  # Turn on cursor
 	stty "$_STTY"            # reinitialize terminal settings
